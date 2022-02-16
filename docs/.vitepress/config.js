@@ -1,6 +1,7 @@
 module.exports = {
   title: 'EoApi',
   description: 'Just playing around.',
+  base: '/eo-doc',
   themeConfig: {
     //   头部导航
     nav: [
