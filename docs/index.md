@@ -1,6 +1,5 @@
 ---
 home: true
-footer: Copyright © 2022
 ---
 
 <script setup>
