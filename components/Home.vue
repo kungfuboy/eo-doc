@@ -2,12 +2,15 @@
   <h3 class="text-effect">
     Make your API
     <div class="mask" ref="mask">
-      <span data-show>detailed</span>
-      <span>faster</span>
-      <span>smarter</span>
-      <span>easier</span>
+      <span data-show>Detailed</span>
+      <span>Faster</span>
+      <span>Smarter</span>
+      <span>Easier</span>
     </div>
   </h3>
+  <section class="type-effect">
+    <h1>Easy-to-use API testing desktop tool.</h1>
+  </section>
 </template>
 
 <script>
@@ -96,6 +99,38 @@ h3.text-effect {
     &:nth-child(4) {
       background-image: linear-gradient(45deg, #fa7671 50%, #a22041);
     }
+  }
+}
+
+.type-effect {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    width: 10ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 5s typing steps(13, jump-none) infinite;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 1ch;
+  }
+
+  70% {
+    width: 38ch;
+  }
+
+  100% {
+    width: 38ch;
   }
 }
 </style>
